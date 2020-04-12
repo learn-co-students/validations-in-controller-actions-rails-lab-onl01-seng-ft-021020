@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:ValidationsInControllerActionsRailsLab
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Author	app/models/author.rb	/^class Author < ActiveRecord::Base$/;"	c
+AuthorsController	app/controllers/authors_controller.rb	/^class AuthorsController < ApplicationController$/;"	c
+CreateAuthors	db/migrate/20151209004423_create_authors.rb	/^class CreateAuthors < ActiveRecord::Migration[4.2]$/;"	c
+CreatePosts	db/migrate/20151209004521_create_posts.rb	/^class CreatePosts < ActiveRecord::Migration[4.2]$/;"	c
+Post	app/models/post.rb	/^class Post < ActiveRecord::Base$/;"	c
+PostsController	app/controllers/posts_controller.rb	/^class PostsController < ApplicationController$/;"	c
+ValidationsInControllerActionsRailsLab	config/application.rb	/^module ValidationsInControllerActionsRailsLab$/;"	m
+author_params	app/controllers/authors_controller.rb	/^  def author_params$/;"	f	class:AuthorsController
+change	db/migrate/20151209004423_create_authors.rb	/^  def change$/;"	f	class:CreateAuthors
+change	db/migrate/20151209004521_create_posts.rb	/^  def change$/;"	f	class:CreatePosts
+create	app/controllers/authors_controller.rb	/^  def create$/;"	f	class:AuthorsController
+edit	app/controllers/posts_controller.rb	/^  def edit$/;"	f	class:PostsController
+new	app/controllers/authors_controller.rb	/^  def new$/;"	f	class:AuthorsController
+post_params	app/controllers/posts_controller.rb	/^  def post_params$/;"	f	class:PostsController
+set_post!	app/controllers/posts_controller.rb	/^  def set_post!$/;"	f	class:PostsController
+show	app/controllers/authors_controller.rb	/^  def show$/;"	f	class:AuthorsController
+show	app/controllers/posts_controller.rb	/^  def show$/;"	f	class:PostsController
+system!	bin/setup	/^def system!(*args)$/;"	f
+system!	bin/update	/^def system!(*args)$/;"	f
+update	app/controllers/posts_controller.rb	/^  def update$/;"	f	class:PostsController
